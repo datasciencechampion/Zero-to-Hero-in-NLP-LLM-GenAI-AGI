@@ -1,31 +1,39 @@
-Steps to Create Virtual Environment
-1. Create a Virtual Environment
-	Run the following command in your terminal to create a virtual environment named env:
-	python -m venv env
+STEP 1 : Download the package
+	Option 1: 
+	https://github.com/datasciencechampion/Zero-to-Hero-in-NLP-LLM-GenAI-AGI.git
 
-2. Activate the Virtual Environment	
-	For Windows
-	env\Scripts\activate
+	Option 2: Download the zip folder
 
-	For Linux
-	source env/bin/activate
+STEP 2: Steps to Create Virtual Environment
+	1. Go to the folder : Zero-to-Hero-in-NLP-LLM-GenAI-AGI/RAG/LiveStockIQ
 
-Note : After activation, your terminal will show the name of the environment (e.g., (env)), indicating that the
-virtual environment is active.
-
-
-3. Install Required Libraries:
-	pip install -r requirements.txt
-
+	2. Create a Virtual Environment
+		Run the following command in your terminal to create a virtual environment named env:
+		python -m venv env
 	
-4. Open .env File: Add your OpenAI & ALPHA Vantage API key:
-	OPENAI_API_KEY=""
-	ALPHA_VANTAGE_API_KEY=""
-
-6. Run the App:
-	streamlit run LiveStockIQ.py
-
-7. Deactivate the Virtual Environment
-	When you're done working, deactivate the virtual environment:
-	deactivate
+	3. Activate the Virtual Environment	
+		For Windows
+		env\Scripts\activate
+	
+		For Linux
+		source env/bin/activate
+	
+	Note : After activation, your terminal will show the name of the environment (e.g., (env)), indicating that the
+	virtual environment is active.
+	
+	
+	4. Install Required Libraries:
+		pip install -r requirements.txt
+	
+		
+	5. Open .env File: Add your OpenAI & ALPHA Vantage API key:
+		OPENAI_API_KEY=""
+		ALPHA_VANTAGE_API_KEY=""
+	
+	6. Run the App:
+		streamlit run LiveStockIQ.py
+	
+	7. Deactivate the Virtual Environment
+		When you're done working, deactivate the virtual environment:
+		deactivate
 
