@@ -1,1 +1,41 @@
+Steps to Create Virtual Environment
 
+1. Create a Virtual Environment
+	Run the following command in your terminal to create a virtual environment named env:
+	python -m venv env
+
+2. Activate the Virtual Environment	
+	For Windows
+	env\Scripts\activate
+
+	For Linux
+	source env/bin/activate
+
+Note : After activation, your terminal will show the name of the environment (e.g., (env)), indicating that the
+virtual environment is active.
+
+
+3. Install Required Libraries:
+
+		pip install -r requirements.txt
+
+4. Open .env File: Add your OpenAI API key:
+	OPENAI_API_KEY="paste your openai api key here"
+
+5. Run the App:
+	streamlit run SmartRecruit.py
+
+6. Deactivate the Virtual Environment
+	When you're done working, deactivate the virtual environment:
+	deactivate
+
+
+How It Works
+
+1. Users uploads set of CV as a .pdf or .docx file.
+2. User clicks on "Embed" button to start the embedding and waits for embedding to complete.
+3. User types query or paste job description to filter relevent CVs
+4. User Selects a CV from the filered CV list in the left pannel.
+5. User then clicks on "Summarize CV" or asks specific question for the selected CV  
+6. When CV is selected , then user can send the email to the candidate to schedule the further interview directly from the app.
+7. Selected CV can also be downloaded.
