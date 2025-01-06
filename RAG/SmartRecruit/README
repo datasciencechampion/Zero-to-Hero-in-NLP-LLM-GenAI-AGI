@@ -1,33 +1,41 @@
-Steps to Create Virtual Environment
+STEP 1 : Download the package
+	Option 1: 
+	https://github.com/datasciencechampion/Zero-to-Hero-in-NLP-LLM-GenAI-AGI.git
 
-1. Create a Virtual Environment
-	Run the following command in your terminal to create a virtual environment named env:
-	python -m venv env
+	Option 2: Download the zip folder
 
-2. Activate the Virtual Environment	
-	For Windows
-	env\Scripts\activate
-
-	For Linux
-	source env/bin/activate
-
-Note : After activation, your terminal will show the name of the environment (e.g., (env)), indicating that the
-virtual environment is active.
+STEP 2: Steps to Create Virtual Environment
+	1. Go to the folder : Zero-to-Hero-in-NLP-LLM-GenAI-AGI/RAG/SmartRecruit
 
 
-3. Install Required Libraries:
+	2. Create a Virtual Environment
+		Run the following command in your terminal to create a virtual environment named env:
+		python -m venv env
+	
+	3. Activate the Virtual Environment	
+		For Windows
+		env\Scripts\activate
+	
+		For Linux
+		source env/bin/activate
+	
+	Note : After activation, your terminal will show the name of the environment (e.g., (env)), indicating that the
+	virtual environment is active.
+	
+	
+	4. Install Required Libraries:
+	
+			pip install -r requirements.txt
+	
+	5. Open .env File: Add your OpenAI API key:
+		OPENAI_API_KEY="paste your openai api key here"
 
-		pip install -r requirements.txt
+STEP 3: Run the App:
+	>streamlit run SmartRecruit.py
 
-4. Open .env File: Add your OpenAI API key:
-	OPENAI_API_KEY="paste your openai api key here"
-
-5. Run the App:
-	streamlit run SmartRecruit.py
-
-6. Deactivate the Virtual Environment
+STEP 4: Deactivate the Virtual Environment
 	When you're done working, deactivate the virtual environment:
-	deactivate
+	>deactivate
 
 
 How It Works
