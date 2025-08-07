@@ -1,4 +1,4 @@
-# Ollama Chat Applications
+# How to Use Ollama to run LLM on local machine ( Build LLM Applications locally )
 
 This project contains two Python applications to interact with locally hosted large language models (LLMs) using Ollama:
 
@@ -250,7 +250,7 @@ deactivate
 
 ## For more details, refer to:
 
-- Ollama Documentation
-- uv Documentation
-- Streamlit Documentation
+- [Ollama Documentation](https://github.com/ollama/ollama/tree/main/docs)
+- [uv Documentation](https://docs.astral.sh/uv/)
+- [Streamlit Documentation](https://docs.streamlit.io/)
 
