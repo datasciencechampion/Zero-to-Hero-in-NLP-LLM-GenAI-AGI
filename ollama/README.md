@@ -144,9 +144,11 @@ Note: Model sizes vary (llama3.2 is ~2GB, mistral is ~4GB). Ensure sufficient di
 
 Create a project directory and set up a virtual environment using uv:
 
-mkdir ollama_chat_project
-cd ollama_chat_project
-uv venv
+>mkdir ollama_chat_project
+
+>cd ollama_chat_project
+
+>uv venv
 
 Activate the virtual environment:
 
